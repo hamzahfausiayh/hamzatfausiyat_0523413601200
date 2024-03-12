@@ -1,0 +1,71 @@
+label{
+    font-weight: bold;
+}
+
+.navbar{
+    float: right;
+    list-style: none;
+    color: white;
+    margin-left: 200    px;
+    margin-top: 23px;
+
+}
+
+.navbar > li{
+    text-decoration: none;
+    display: inline;
+}
+
+
+.navbar > li> a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 17px;
+    border: 1px solid #fff;
+    margin: 5px;
+}
+
+
+
+.navbar li a:hover{
+    background-color: #fff;
+    color: #333;
+
+}
+
+body{
+    background:url("./images/IMG_E4588.JPG");
+    background-size: cover;
+    position:relative;
+    height: 100vh;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+}
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+textarea,
+input[type="file"] {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background:url("./images/IMG_4924.JPG") ;
+}
+input[type="submit"] {
+    background-color: bisque;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color:#452334 ;
+}

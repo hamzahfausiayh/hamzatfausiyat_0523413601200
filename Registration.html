@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./Registration.css" />
+</head>
+
+<body>
+    <header>
+        <div class = "wrapper">
+            <div class = "logo">
+                    <a href="#.html">EDU</a>
+            </div>
+            <ul class="navbar">
+                <li><a href="Index.html"id="active">Index</a></li>
+                <li><a href="Faculty.html"id="active">Faculty</a></li>
+                <li><a href="Department.html"id="active">Department</a></li>
+                <li><a href="Student timetable.html"id="active">Student timetable</a></li>
+                <li><a href="Registration.html"id="active">Registration</a></li>
+                <li><a href="Payment dues.html"id="active">Payment dues</a></li>
+                <li><a href="Content.html"id="active">Content</a></li>
+            </ul>
+        </div>
+
+        
+<div id="line">
+    <h1>Registration</h1> 
+</div> 
+</div>
+        </nav>
+        <Form action="Submit_registration.php" method="POST" enctype="multipart/form-data">
+        <label for="student_number">Student Number:</label><br>
+        <input type="text" id="student_number"name="student_number" required><br>
+
+        <label for="First_name">First Name:</label><br>
+        <input type="text" id="First_name"name="First_name" required><br>
+
+        <label for="Second_name">Second Name:</label><br>
+        <input type="text" id="Second_name"name="Second _name" required><br>
+
+        <label for="Dob">Date of Birth:</label><br>
+        <input type="Date" id="Dob"name="Dob" required><br>
+
+        <label for="Faculty">Faculty:</label><br>
+        <input type="text" id="Faculty"name="Faculty" required><br>
+
+        <label for="Department">Department:</label><br>
+        <input type="text" id="Department"name="Department" required><br>
+
+        <label for="Telephone">Telephone Number:</label><br>
+        <input type="tel" id="telephone"name="telephone" required><br>
+
+        <label for="address">Address:</label><br>
+        <textarea  id="address"name="address" required></textarea><br>
+
+        <label for="Picture">Upload picture:</label><br>
+        <input type="file" id="picture"name="picture" accept="image/*" required><br><br>
+
+        <input type="submit" value="submit">
+    </Form>
+ </body>
+</html>
